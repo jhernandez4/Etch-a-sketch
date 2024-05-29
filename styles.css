@@ -1,0 +1,18 @@
+.squareContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
