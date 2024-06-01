@@ -1,7 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 .squareContainer {
     display: flex;
     flex-direction: row;
-    gap: 1px;
 }
 
 .gridContainer {
@@ -12,8 +16,6 @@
     border-style: solid;
     width: 960px;
     height: 960px;
-    gap: 1px;
-    
 }
 
 .square {
