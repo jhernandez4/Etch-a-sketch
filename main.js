@@ -32,7 +32,7 @@ document.body.appendChild(promptButton);
 createGrid(DEFAULT_NUM_SQUARES);
 
 function getPixelsPerSquare(numSquares){
-    const pixelsPerSquare = Math.floor((960/numSquares));
+    const pixelsPerSquare = 960/numSquares;
     return pixelsPerSquare;
 }
 function createGrid(numSquares){
